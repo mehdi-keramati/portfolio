@@ -1,7 +1,7 @@
 # Portfolio
 
 This is my personal portfolio website, showcasing my skills, projects, and experiences. Initially developed using ReactJS, I have now rewritten it with SvelteKit for better performance and a more modern development experience.
-###### [React version](https://github.com/b-owl/portfolio-reactjs-version)
+###### [React version](https://github.com/mehdi-keramati/portfolio-reactjs-version)
 
 ![Portfolio Preview](https://drive.google.com/uc?id=1q2b-H6RY6wl-Njs8g7gKrbf4twGDcwwj)
 
@@ -54,7 +54,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/b-owl/portfolio.git
+   git clone https://github.com/mehdi-keramati/portfolio.git
    cd portfolio
 
 ### Install dependencies:

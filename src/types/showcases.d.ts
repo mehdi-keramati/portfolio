@@ -22,5 +22,4 @@ export interface PortfolioDataType {
     },
   ]
   games: ProjectDataType[]
-  graphicDesign: ProjectDataType[]
 }

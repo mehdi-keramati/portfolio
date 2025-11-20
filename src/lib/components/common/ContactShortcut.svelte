@@ -12,14 +12,14 @@
       icon: 'line-md:instagram',
     },
     {
-      href: 'https://www.github.com/b-owl',
+      href: 'https://www.github.com/mehdi-keramati',
       icon: 'line-md:github-loop',
     },
     {
       href: 'https://www.linkedin.com/in/mehdikeramti',
       icon: 'line-md:linkedin',
     },
-    { href: 'https://t.me/blue_0wl', icon: 'line-md:telegram' },
+    { href: 'https://t.me/blue_zoomer', icon: 'line-md:telegram' },
   ]
 
   onMount(() => {

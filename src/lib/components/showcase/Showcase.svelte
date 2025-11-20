@@ -42,8 +42,6 @@
       }
     } else if (gern === 'Games') {
       work = portfolioData[0].games
-    } else if (gern === 'GraphicDesign') {
-      work = portfolioData[0].graphicDesign
     }
   }
 
@@ -86,6 +84,11 @@
       >
         {$i18n.t('seeProjects')}
       </h1>
+      
+      <p class="w-3/4 mx-auto mt-2 mb-6 text-sm text-center text-gray-500 md:w-1/2 rtl:font-TitrPlus ltr:font-roboto">
+        {$i18n.t('archiveDisclaimer')}
+      </p>
+
       <div class="w-3/5 h-1 mx-auto bg-secondary md:w-2/5">
         <div
           class="relative w-10 h-1 bg-base-100 left-2/4 -translate-x-2/4 rtl:translate-x-2/4 rtl:-left-2/4"

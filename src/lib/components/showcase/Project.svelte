@@ -8,7 +8,10 @@
   export let viewOnline: string
 </script>
 
-<section class="{pic} bg-center bg-contain bg-no-repeat w-3/4 md:w-full h-64">
+<section class="{pic} bg-center bg-contain bg-no-repeat w-3/4 md:w-full h-64 relative group">
+  <div class="absolute top-2 right-2 z-10 badge badge-warning badge-sm gap-2 opacity-90 shadow-sm font-bold tracking-wider">
+    {$i18n.t('archive')}
+  </div>
   <div
     class="project-item flex flex-col items-center justify-center w-full h-full gap-4 overflow-hidden opacity-0 hover:opacity-100 bg-base-200/85 rounded-md"
   >

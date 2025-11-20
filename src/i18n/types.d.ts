@@ -69,6 +69,8 @@ declare module 'i18next' {
         astroDescription: string
         projects: string
         seeProjects: string
+        archiveDisclaimer: string
+        archive: string
         all: string
         projectName1: string
         projectName2: string
@@ -96,7 +98,6 @@ declare module 'i18next' {
         app: string
         games: string
         templates: string
-        graphicDesign: string
         vanillajs: string
         reactjs: string
         viewGithub: string

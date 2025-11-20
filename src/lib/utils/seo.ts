@@ -11,9 +11,9 @@ export interface SEOConfig {
 }
 
 export const defaultSEO: SEOConfig = {
-  title: 'Mehdi Keramati - Frontend Developer & UI/UX Designer',
+  title: 'Mehdi Keramati - Frontend Developer',
   description: 'Passionate Frontend Web Developer crafting innovative digital experiences with React, Svelte, TypeScript, and modern web technologies. View my portfolio and projects.',
-  keywords: 'frontend developer, web developer, react, svelte, typescript, ui/ux designer, portfolio, mehdi keramati',
+  keywords: 'frontend developer, web developer, react, svelte, typescript, portfolio, mehdi keramati',
   image: '/portfolio-preview.jpg',
   url: 'https://mehdikeramati.ir',
   type: 'website',
@@ -63,7 +63,7 @@ export function generateSEOTags(config: Partial<SEOConfig> = {}): string {
 
 export const pageSEO = {
   home: {
-    title: 'Mehdi Keramati - Frontend Developer & UI/UX Designer',
+    title: 'Mehdi Keramati - Frontend Developer',
     description: 'Welcome to my portfolio. I\'m a passionate Frontend Developer specializing in React, Svelte, and modern web technologies.',
     keywords: 'frontend developer, web developer, portfolio, react, svelte, typescript'
   },

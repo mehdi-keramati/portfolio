@@ -25,10 +25,10 @@ export const personSchema: PersonSchema = {
   jobTitle: 'Frontend Developer & UI/UX Designer',
   url: 'https://mehdikeramati.ir',
   sameAs: [
-    'https://github.com/b-owl',
+    'https://github.com/mehdi-keramati',
     'https://linkedin.com/in/mehdikeramti',
     'https://instagram.com/eule_blauu',
-    'https://t.me/blue_0wl'
+    'https://t.me/blue_zoomer'
   ],
   image: 'https://mehdikeramati.ir/me.png',
   description: 'Passionate Frontend Web Developer crafting innovative digital experiences with React, Svelte, TypeScript, and modern web technologies.',
