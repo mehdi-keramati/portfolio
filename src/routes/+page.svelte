@@ -1,10 +1,12 @@
 <script>
   import Home from '$lib/components/home/Home.svelte'
+  import { generateSEOTags, pageSEO } from '$lib/utils/seo'
+  import { generateStructuredData, personSchema, websiteSchema } from '$lib/utils/structured-data'
 </script>
 
 <svelte:head>
-  <title>Mehdi Keramti</title>
-  <meta name="description" content="Mehdi keramati portfolio" />
+  {@html generateSEOTags(pageSEO.home)}
+  {@html generateStructuredData([personSchema, websiteSchema])}
 </svelte:head>
 
 <section

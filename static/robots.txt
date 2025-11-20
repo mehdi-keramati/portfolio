@@ -1,3 +1,12 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+
+# Disallow admin or private areas (none in this case)
+# Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://mehdikeramati.ir/sitemap.xml
+
+# Crawl-delay for politeness (optional)
+Crawl-delay: 1

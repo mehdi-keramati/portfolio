@@ -1,10 +1,10 @@
 <script>
   import Showcase from '$lib/components/showcase/Showcase.svelte'
+  import { generateSEOTags, pageSEO } from '$lib/utils/seo'
 </script>
 
 <svelte:head>
-  <title>Mehdi Keramti</title>
-  <meta name="description" content="Mehdi keramati portfolio" />
+  {@html generateSEOTags(pageSEO.projects)}
 </svelte:head>
 
 <section class="flex items-center justify-center w-full min-h-screen">
