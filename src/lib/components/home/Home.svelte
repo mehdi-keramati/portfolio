@@ -213,8 +213,11 @@
     </div>
     <div
       id={!$isLoading ? 'img-animate-effect' : ''}
-      class="fixed hidden w-2/5 me lg:bottom-0 ltr:right-32 rtl:left-32"
+      class="fixed hidden w-2/5 me lg:-bottom-2 ltr:right-14 rtl:left-14"
     >
+      <div
+        class="fixed hidden -z-10 me min-w-[4.4rem] min-h-10 rounded-lg bg-gray-300 lg:top-10 ltr:right-[17rem] rtl:left-[17rem]"
+      />
       <img src={MePic} alt="me" />
     </div>
   {/if}

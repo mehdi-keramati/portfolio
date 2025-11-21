@@ -43,15 +43,16 @@
   <div class="hidden h-92 xl:block basis-1/3">
     <div
       style=" z-index: -1"
-      class="absolute rounded-full glass bg-secondary w-72 h-72 top-36 left-14 rtl:right-14"
-    />
-    <img
-      class="w-full h-full"
-      id={"scale-effect"}
-      src={MePicCarton}
-      alt="Mehdi Keramati"
-      on:load={() => isLoading.set(false)}
-    />
+      class="absolute rounded-full glass bg-secondary w-72 h-72 top-36 left-14 rtl:right-14 overflow-hidden"
+    >
+    <!-- id={'scale-effect'} -->
+      <img
+        class="w-full h-full"
+        src={MePicCarton}
+        alt="Mehdi Keramati"
+        on:load={() => isLoading.set(false)}
+      />
+    </div>
   </div>
   <div class="basis-full xl:basis-2/3">
     <div class="relative">
@@ -85,7 +86,7 @@
             />
           </div>
 
-          <div>
+          <div class="w-full">
             <h3 class="text-lg rtl:font-TitrPlus font-summer">{skill}</h3>
             <p class="mt-2 text-xs text-gray-400">{description}</p>
           </div>
@@ -96,9 +97,9 @@
 </section>
 
 <style>
-  #scale-effect {
+  /* #scale-effect {
     animation: scaleUp 0.4s ease-in-out forwards;
-  }
+  } */
 
   @keyframes scaleUp {
     from {
