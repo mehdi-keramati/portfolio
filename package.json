@@ -1,6 +1,6 @@
 {
   "name": "svelte-portfolio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev": "vite dev --port 3000",
     "build": "vite build && cp .nojekyll build",

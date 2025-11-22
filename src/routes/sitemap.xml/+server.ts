@@ -1,5 +1,7 @@
 import type { RequestHandler } from '@sveltejs/kit'
 
+export const prerender = true
+
 const site = 'https://mehdikeramati.ir'
 const pages = [
   '',
