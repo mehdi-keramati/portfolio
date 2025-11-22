@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://mehdikeramati.ir</loc>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikeramati.ir"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mehdikeramati.ir"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mehdikeramati.ir"/>
+  </url>
+  <url>
+    <loc>https://mehdikeramati.ir/about</loc>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikeramati.ir/about"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mehdikeramati.ir/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mehdikeramati.ir/about"/>
+  </url>
+  <url>
+    <loc>https://mehdikeramati.ir/service</loc>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikeramati.ir/service"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mehdikeramati.ir/service"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mehdikeramati.ir/service"/>
+  </url>
+  <url>
+    <loc>https://mehdikeramati.ir/projects</loc>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikeramati.ir/projects"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mehdikeramati.ir/projects"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mehdikeramati.ir/projects"/>
+  </url>
+  <url>
+    <loc>https://mehdikeramati.ir/contact</loc>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mehdikeramati.ir/contact"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mehdikeramati.ir/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://mehdikeramati.ir/contact"/>
+  </url>
+</urlset>
