@@ -21,12 +21,11 @@
 <section
   class="flex items-center justify-center min-h-screen p-10 py-20 mx-auto activeSection lg:w-4/5 md:p-20 lg:p-10 md:gap-x-16"
 >
-  <div class="relative z-10 hidden rounded-md lg:block lg:basis-1/3 h-92">
+  <div class="relative z-10 hidden rounded-xl lg:block lg:basis-1/3 h-92 overflow-hidden">
     <div
       class="absolute bottom-0 left-0 w-full h-full rounded-lg bg-secondary opacity-20"
     />
     <img
-      in:fly={{ x: -200, duration: 400 }}
       class="z-20 w-full h-full"
       src={ContactPic}
       alt="contact-us pic"
